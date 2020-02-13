@@ -1,0 +1,93 @@
+{
+  "R": {
+    "Version": "3.6.2",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com"
+      }
+    ]
+  },
+  "Packages": {
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "084336e3a1a0d358337525d7a394bb8b"
+    },
+    "glue": {
+      "Package": "glue",
+      "Version": "1.3.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e8436e647719b7c9d01409767cd88cc8"
+    },
+    "lattice": {
+      "Package": "lattice",
+      "Version": "0.20-38",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemoteRef": "lattice",
+      "RemoteRepos": "https://cran.rstudio.com/",
+      "RemotePkgType": "source",
+      "RemoteSha": "0.20-38",
+      "Hash": "6f7aa123115b33bc9ad1ca800874b1de"
+    },
+    "magrittr": {
+      "Package": "magrittr",
+      "Version": "1.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "dee1d97cffddfd3ed969e224bd0826d0"
+    },
+    "purrr": {
+      "Package": "purrr",
+      "Version": "0.3.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b174d35f8cfb40b0c0b66d2bb0bc4224"
+    },
+    "raster": {
+      "Package": "raster",
+      "Version": "3.0-7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "060374e8d188b105e1e6dbfcdede54aa"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.8.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemoteRef": "renv",
+      "RemoteRepos": "https://cran.rstudio.com/",
+      "RemotePkgType": "source",
+      "RemoteSha": "0.8.3",
+      "Hash": "4ee3e91b679fbd7102c1fd51f9a4bc59"
+    },
+    "rgdal": {
+      "Package": "rgdal",
+      "Version": "1.4-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c98d224ecc4f7608021ef52cdb56030c"
+    },
+    "rlang": {
+      "Package": "rlang",
+      "Version": "0.4.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2d1095fab96f3685b1858d967fcead11"
+    },
+    "sp": {
+      "Package": "sp",
+      "Version": "1.3-2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "19bcc842106d0a24c3d92138d83d8f21"
+    }
+  }
+}
