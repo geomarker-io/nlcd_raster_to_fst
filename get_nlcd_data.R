@@ -1,11 +1,3 @@
-library(dplyr)
-
-# choose random nlcd cell numbers for testing
-nlcd_cells <- sample(1:16832104560, 5)
-
-# predownloaded files exist for:
-nlcd_cells <- c(4511840538, 12586178917, 8228542109, 1808114857, 517112985)
-
 download_nlcd_chunk <- function(nlcd_chunk_number) {
   dir.create("./nlcd_fst/", showWarnings = FALSE)
   message(glue::glue("downloading s3://geomarker/nlcd/nlcd_chunk_{nlcd_chunk_number}.fst"))
@@ -40,18 +32,8 @@ get_nlcd_data <- function(nlcd_cell_number,
   out
 }
 
-get_nlcd_data(nlcd_cells[1])
-
-purrr::map_dfr(nlcd_cells, get_nlcd_data)
-
-purrr::map_dfr(nlcd_cells + 100000, get_nlcd_data)
-
-mappp::mappp(nlcd_cells, get_nlcd_data, parallel = TRUE)
-
 # download all chunks needed for nlcd multiple cell numbers ahead of time
 download_nlcd_chunks <- function(nlcd_cell_numbers) {
   nlcd_chunks_needed <- unique(nlcd_cell_numbers %/% 1e+07)
   purrr::walk(nlcd_chunks_needed, download_nlcd_chunk)
 }
-
-download_nlcd_chunks(nlcd_cells)

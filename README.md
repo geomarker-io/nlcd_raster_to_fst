@@ -14,5 +14,21 @@ This script relies heavily on system calls and so its behavior may change depend
 ## reading data from fst files
 
 - each file is a "chunk" of the total data and is named like `nlcd_chunk_{chunk_number}.fst`, see `get_nlcd_data.R` for functions to extract data automatically based on NLCD cell number, year, and product name
-- chunk files will be automatically downloaded to the `.nlcd/` folder in the working directory; the number of chunk files needed depends on the geographic extent of the input spatial data; their size varies, but each file is 28.5 MB in size on average (all 1,685 files take about 48 GB on disk)
+- chunk files will be automatically downloaded to the `./nlcd/` folder in the working directory; the number of chunk files needed depends on the geographic extent of the input spatial data; their size varies, but each file is 28.5 MB in size on average (all 1,685 files take about 48 GB on disk)
+- a quick example is:
+
+```r
+source('get_nlcd_data.R')
+
+# choose random nlcd cell numbers for example
+nlcd_cells <- sample(1:16832104560, 5)
+
+get_nlcd_data(nlcd_cells[1])
+
+purrr::map_dfr(nlcd_cells, get_nlcd_data)
+
+purrr::map_dfr(nlcd_cells + 100000, get_nlcd_data)
+
+mappp::mappp(nlcd_cells, get_nlcd_data, parallel = TRUE)
+```
 
