@@ -1,6 +1,5 @@
 library(glue)
 library(magrittr)
-library(purrr)
 
 sg <- function(...) system(glue(...))
 

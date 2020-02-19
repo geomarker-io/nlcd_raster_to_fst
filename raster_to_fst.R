@@ -2,38 +2,38 @@ library(glue)
 library(magrittr)
 library(rgdal)
 library(purrr)
+library(tibble)
 
-yrs <- c('2001', '2006', '2011', '2016')
+## list.files("./nlcd_tif", full.names = TRUE)
+
+yrs <- c("2001", "2006", "2011", "2016")
+product_names <- c("nlcd", "impervious", "imperviousdescriptor")
+
+yrs_product_names <- map(product_names, ~ paste0(., "_", yrs)) %>% unlist()
 
 #### convert tif to chunked fst files ####
 
-raster_to_fst <- function(product) {
-  d <- raster::raster(glue('{product}.tif'))
+r_all <- raster::stack(glue("./nlcd_tif/{yrs_product_names}.tif"))
+dir.create("./nlcd_fst")
+
+chunk_size <- 10000000
+n_chunks <- (raster::ncell(r_all) %/% chunk_size) + 1
+
+write_chunk_as_fst <- function(chnk) {
+  chunk_cell_numbers <-
+    seq.int(
+      from = chnk * chunk_size,
+      to = chnk * chunk_size + chunk_size - 1,
+      by = 1
+    )
   d_values <-
-    raster::extract(d, 1:raster::ncell(d)) %>%
-    as_tibble(.name_repair = 'minimal')
-  stopifnot(nrow(d_values) == ncell(d))
-  d_values %>%
-    purrr::setNames(product)
-  fst::write_fst(d_values, glue('{product}.fst'))
+    raster::extract(r_all, chunk_cell_numbers) %>%
+    as_tibble()
+  fst::write_fst(d_values, glue("./nlcd_fst/nlcd_chunk_{chnk}.fst"))
+  return(invisible(NULL))
 }
 
-raster_to_fst('nlcd_2001')
-raster_to_fst('nlcd_2006')
-raster_to_fst('nlcd_2011')
-raster_to_fst('nlcd_2016')
+mappp::mappp(0:n_chunks, write_chunk_as_fst, parallel = TRUE) %>%
+  invisible()
 
-## glue('impervious_{years}') %>%
-##   walk(raster_to_fst)
 
-## glue('imperviousdescriptor_{years}') %>%
-##   walk(raster_to_fst)
-
-## raster_to_fst('impervious')
-
-## raster_to_fst('imperviousdescriptor')
-
-#### push all to s3 ####
-
-## list.files(pattern = '*.fst') %>%
-##   glue('aws s3 cp {.} s3://geomarker/nlcd/{.}')
