@@ -1,51 +1,173 @@
-id,lat,lon,nlcd_2001,impervious_2001,imperviousdescriptor_2001,nlcd_2006,impervious_2006,imperviousdescriptor_2006,nlcd_2011,impervious_2011,imperviousdescriptor_2011,nlcd_2016,impervious_2016,imperviousdescriptor_2016
-55001310120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-9000010083,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-67100240229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2800040021,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-59004140168,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-4100010061,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-52001710431,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-55000100280,39.19674,-84.582601,22,32,9,22,32,9,22,32,9,22,32,9
-55000100281,39.19674,-84.582601,22,32,9,22,32,9,22,32,9,22,32,9
-55000100282,39.19674,-84.582601,22,32,9,22,32,9,22,32,9,22,32,9
-55000100283,39.19674,-84.582601,22,32,9,22,32,9,22,32,9,22,32,9
-55000100284,39.19674,-84.582601,22,32,9,22,32,9,22,32,9,22,32,9
-9800060045,39.127314,-84.526996,23,64,5,23,64,5,23,64,5,23,64,5
-59100090241,39.28765,-84.510173,22,44,5,22,44,5,22,44,5,22,44,5
-21600460082,39.107766,-84.511008,24,89,3,24,89,3,24,89,3,24,89,3
-50002200628,39.106521,-84.352668,21,16,5,21,16,5,21,16,5,21,16,5
-67100040004,39.228281,-84.442817,22,37,9,22,37,9,22,37,9,22,37,9
-5100020177,39.158521,-84.417572,23,71,5,23,71,5,23,71,5,23,71,5
-55000100212,39.191731,-84.581686,22,39,9,22,39,9,22,39,9,22,39,9
-51000810328,39.207945,-84.583429,23,67,3,23,67,3,23,67,3,23,67,3
-61201400371,39.257199,-84.372962,22,23,5,22,23,5,22,23,5,22,23,5
-19200650054,39.154809,-84.555112,21,9,5,21,9,5,21,9,5,21,9,5
-60000110098,39.289207,-84.323762,22,38,9,22,38,9,22,38,9,22,38,9
-60001000117,39.222929,-84.362476,21,10,5,21,10,5,21,10,5,21,10,5
-50002700262,39.069522,-84.36304,22,41,5,22,41,5,22,41,5,22,41,5
-60002110309,39.21411,-84.378857,22,28,5,22,28,5,22,28,5,22,28,5
-22100190292,39.162385,-84.534013,23,62,5,23,62,5,23,62,5,23,62,5
-61201110164,39.24182,-84.405757,22,30,5,22,30,5,22,30,5,22,30,5
-52500160078,39.183676,-84.380026,21,15,9,21,15,9,21,15,9,21,15,9
-50003700268,39.114309,-84.375814,22,28,9,22,28,9,22,28,9,22,28,9
-17900770440,39.11109,-84.58803,22,23,9,22,23,9,22,23,9,22,23,9
-60002310072,39.214071,-84.404595,22,26,9,22,26,9,22,26,9,22,26,9
-61200600204,39.227722,-84.382689,22,27,5,22,27,5,22,27,5,22,27,5
-51000710151,39.218863,-84.578876,21,18,9,21,18,9,21,18,9,21,18,9
-52700100025,39.142696,-84.375735,21,6,5,21,6,5,21,6,5,21,6,5
-22500030012,39.157044,-84.574001,23,54,5,23,54,5,23,54,5,23,54,5
-51000700019,39.211275,-84.585293,22,30,5,22,30,5,22,30,5,22,30,5
-65100520093,39.155716,-84.462985,22,45,9,22,45,9,22,45,9,22,45,9
-14900120025,39.103255,-84.554964,23,54,9,23,54,9,23,54,9,23,54,9
-59500020243,39.222116,-84.546861,22,38,5,22,38,5,22,38,5,22,38,5
-60800100075,39.274959,-84.39074,22,43,5,22,43,5,22,43,5,22,43,5
-51001010270,39.24134,-84.599597,22,40,5,22,40,5,22,40,5,22,40,5
-2200040012,39.132608,-84.416917,41,0,0,41,0,0,41,0,0,41,0,0
-55000640056,39.167463,-84.596113,22,44,5,22,44,5,22,44,5,22,44,5
-59600100129,39.267424,-84.452977,21,19,5,21,19,5,21,19,5,21,19,5
-67100160157,39.222482,-84.427354,22,47,5,22,47,5,22,47,5,22,47,5
-54001200027,39.111958,-84.667418,22,22,3,22,22,3,22,22,3,22,22,3
-60000930179,39.216002,-84.371319,21,10,9,21,10,9,21,10,9,21,10,9
-02040A150084,39.117415,-84.576036,22,40,9,22,40,9,22,40,9,22,40,9
-5400040073,39.137718,-84.469708,22,30,9,22,30,9,22,30,9,22,30,9
+id,lat,lon,year,impervious,landcover_class,landcover,green,road_type
+55000100280,39.19674,-84.582601,2001,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100280,39.19674,-84.582601,2006,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100280,39.19674,-84.582601,2011,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100280,39.19674,-84.582601,2016,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100281,39.19674,-84.582601,2001,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100281,39.19674,-84.582601,2006,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100281,39.19674,-84.582601,2011,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100281,39.19674,-84.582601,2016,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100282,39.19674,-84.582601,2001,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100282,39.19674,-84.582601,2006,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100282,39.19674,-84.582601,2011,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100282,39.19674,-84.582601,2016,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100283,39.19674,-84.582601,2001,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100283,39.19674,-84.582601,2006,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100283,39.19674,-84.582601,2011,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100283,39.19674,-84.582601,2016,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100284,39.19674,-84.582601,2001,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100284,39.19674,-84.582601,2006,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100284,39.19674,-84.582601,2011,32,developed,developed low intensity,TRUE,nonroad_urban
+55000100284,39.19674,-84.582601,2016,32,developed,developed low intensity,TRUE,nonroad_urban
+9800060045,39.127314,-84.526996,2001,64,developed,developed medium intensity,FALSE,tertiary_urban
+9800060045,39.127314,-84.526996,2006,64,developed,developed medium intensity,FALSE,tertiary_urban
+9800060045,39.127314,-84.526996,2011,64,developed,developed medium intensity,FALSE,tertiary_urban
+9800060045,39.127314,-84.526996,2016,64,developed,developed medium intensity,FALSE,tertiary_urban
+59100090241,39.28765,-84.510173,2001,44,developed,developed low intensity,TRUE,tertiary_urban
+59100090241,39.28765,-84.510173,2006,44,developed,developed low intensity,TRUE,tertiary_urban
+59100090241,39.28765,-84.510173,2011,44,developed,developed low intensity,TRUE,tertiary_urban
+59100090241,39.28765,-84.510173,2016,44,developed,developed low intensity,TRUE,tertiary_urban
+21600460082,39.107766,-84.511008,2001,89,developed,developed high intensity,FALSE,secondary_urban
+21600460082,39.107766,-84.511008,2006,89,developed,developed high intensity,FALSE,secondary_urban
+21600460082,39.107766,-84.511008,2011,89,developed,developed high intensity,FALSE,secondary_urban
+21600460082,39.107766,-84.511008,2016,89,developed,developed high intensity,FALSE,secondary_urban
+50002200628,39.106521,-84.352668,2001,16,developed,developed open,TRUE,tertiary_urban
+50002200628,39.106521,-84.352668,2006,16,developed,developed open,TRUE,tertiary_urban
+50002200628,39.106521,-84.352668,2011,16,developed,developed open,TRUE,tertiary_urban
+50002200628,39.106521,-84.352668,2016,16,developed,developed open,TRUE,tertiary_urban
+67100040004,39.228281,-84.442817,2001,37,developed,developed low intensity,TRUE,nonroad_urban
+67100040004,39.228281,-84.442817,2006,37,developed,developed low intensity,TRUE,nonroad_urban
+67100040004,39.228281,-84.442817,2011,37,developed,developed low intensity,TRUE,nonroad_urban
+67100040004,39.228281,-84.442817,2016,37,developed,developed low intensity,TRUE,nonroad_urban
+5100020177,39.158521,-84.417572,2001,71,developed,developed medium intensity,FALSE,tertiary_urban
+5100020177,39.158521,-84.417572,2006,71,developed,developed medium intensity,FALSE,tertiary_urban
+5100020177,39.158521,-84.417572,2011,71,developed,developed medium intensity,FALSE,tertiary_urban
+5100020177,39.158521,-84.417572,2016,71,developed,developed medium intensity,FALSE,tertiary_urban
+55000100212,39.191731,-84.581686,2001,39,developed,developed low intensity,TRUE,nonroad_urban
+55000100212,39.191731,-84.581686,2006,39,developed,developed low intensity,TRUE,nonroad_urban
+55000100212,39.191731,-84.581686,2011,39,developed,developed low intensity,TRUE,nonroad_urban
+55000100212,39.191731,-84.581686,2016,39,developed,developed low intensity,TRUE,nonroad_urban
+51000810328,39.207945,-84.583429,2001,67,developed,developed medium intensity,FALSE,secondary_urban
+51000810328,39.207945,-84.583429,2006,67,developed,developed medium intensity,FALSE,secondary_urban
+51000810328,39.207945,-84.583429,2011,67,developed,developed medium intensity,FALSE,secondary_urban
+51000810328,39.207945,-84.583429,2016,67,developed,developed medium intensity,FALSE,secondary_urban
+61201400371,39.257199,-84.372962,2001,23,developed,developed low intensity,TRUE,tertiary_urban
+61201400371,39.257199,-84.372962,2006,23,developed,developed low intensity,TRUE,tertiary_urban
+61201400371,39.257199,-84.372962,2011,23,developed,developed low intensity,TRUE,tertiary_urban
+61201400371,39.257199,-84.372962,2016,23,developed,developed low intensity,TRUE,tertiary_urban
+19200650054,39.154809,-84.555112,2001,9,developed,developed open,TRUE,tertiary_urban
+19200650054,39.154809,-84.555112,2006,9,developed,developed open,TRUE,tertiary_urban
+19200650054,39.154809,-84.555112,2011,9,developed,developed open,TRUE,tertiary_urban
+19200650054,39.154809,-84.555112,2016,9,developed,developed open,TRUE,tertiary_urban
+60000110098,39.289207,-84.323762,2001,38,developed,developed low intensity,TRUE,nonroad_urban
+60000110098,39.289207,-84.323762,2006,38,developed,developed low intensity,TRUE,nonroad_urban
+60000110098,39.289207,-84.323762,2011,38,developed,developed low intensity,TRUE,nonroad_urban
+60000110098,39.289207,-84.323762,2016,38,developed,developed low intensity,TRUE,nonroad_urban
+60001000117,39.222929,-84.362476,2001,10,developed,developed open,TRUE,tertiary_urban
+60001000117,39.222929,-84.362476,2006,10,developed,developed open,TRUE,tertiary_urban
+60001000117,39.222929,-84.362476,2011,10,developed,developed open,TRUE,tertiary_urban
+60001000117,39.222929,-84.362476,2016,10,developed,developed open,TRUE,tertiary_urban
+50002700262,39.069522,-84.36304,2001,41,developed,developed low intensity,TRUE,tertiary_urban
+50002700262,39.069522,-84.36304,2006,41,developed,developed low intensity,TRUE,tertiary_urban
+50002700262,39.069522,-84.36304,2011,41,developed,developed low intensity,TRUE,tertiary_urban
+50002700262,39.069522,-84.36304,2016,41,developed,developed low intensity,TRUE,tertiary_urban
+60002110309,39.21411,-84.378857,2001,28,developed,developed low intensity,TRUE,tertiary_urban
+60002110309,39.21411,-84.378857,2006,28,developed,developed low intensity,TRUE,tertiary_urban
+60002110309,39.21411,-84.378857,2011,28,developed,developed low intensity,TRUE,tertiary_urban
+60002110309,39.21411,-84.378857,2016,28,developed,developed low intensity,TRUE,tertiary_urban
+22100190292,39.162385,-84.534013,2001,62,developed,developed medium intensity,FALSE,tertiary_urban
+22100190292,39.162385,-84.534013,2006,62,developed,developed medium intensity,FALSE,tertiary_urban
+22100190292,39.162385,-84.534013,2011,62,developed,developed medium intensity,FALSE,tertiary_urban
+22100190292,39.162385,-84.534013,2016,62,developed,developed medium intensity,FALSE,tertiary_urban
+61201110164,39.24182,-84.405757,2001,30,developed,developed low intensity,TRUE,tertiary_urban
+61201110164,39.24182,-84.405757,2006,30,developed,developed low intensity,TRUE,tertiary_urban
+61201110164,39.24182,-84.405757,2011,30,developed,developed low intensity,TRUE,tertiary_urban
+61201110164,39.24182,-84.405757,2016,30,developed,developed low intensity,TRUE,tertiary_urban
+52500160078,39.183676,-84.380026,2001,15,developed,developed open,TRUE,nonroad_urban
+52500160078,39.183676,-84.380026,2006,15,developed,developed open,TRUE,nonroad_urban
+52500160078,39.183676,-84.380026,2011,15,developed,developed open,TRUE,nonroad_urban
+52500160078,39.183676,-84.380026,2016,15,developed,developed open,TRUE,nonroad_urban
+50003700268,39.114309,-84.375814,2001,28,developed,developed low intensity,TRUE,nonroad_urban
+50003700268,39.114309,-84.375814,2006,28,developed,developed low intensity,TRUE,nonroad_urban
+50003700268,39.114309,-84.375814,2011,28,developed,developed low intensity,TRUE,nonroad_urban
+50003700268,39.114309,-84.375814,2016,28,developed,developed low intensity,TRUE,nonroad_urban
+17900770440,39.11109,-84.58803,2001,23,developed,developed low intensity,TRUE,nonroad_urban
+17900770440,39.11109,-84.58803,2006,23,developed,developed low intensity,TRUE,nonroad_urban
+17900770440,39.11109,-84.58803,2011,23,developed,developed low intensity,TRUE,nonroad_urban
+17900770440,39.11109,-84.58803,2016,23,developed,developed low intensity,TRUE,nonroad_urban
+60002310072,39.214071,-84.404595,2001,26,developed,developed low intensity,TRUE,nonroad_urban
+60002310072,39.214071,-84.404595,2006,26,developed,developed low intensity,TRUE,nonroad_urban
+60002310072,39.214071,-84.404595,2011,26,developed,developed low intensity,TRUE,nonroad_urban
+60002310072,39.214071,-84.404595,2016,26,developed,developed low intensity,TRUE,nonroad_urban
+61200600204,39.227722,-84.382689,2001,27,developed,developed low intensity,TRUE,tertiary_urban
+61200600204,39.227722,-84.382689,2006,27,developed,developed low intensity,TRUE,tertiary_urban
+61200600204,39.227722,-84.382689,2011,27,developed,developed low intensity,TRUE,tertiary_urban
+61200600204,39.227722,-84.382689,2016,27,developed,developed low intensity,TRUE,tertiary_urban
+51000710151,39.218863,-84.578876,2001,18,developed,developed open,TRUE,nonroad_urban
+51000710151,39.218863,-84.578876,2006,18,developed,developed open,TRUE,nonroad_urban
+51000710151,39.218863,-84.578876,2011,18,developed,developed open,TRUE,nonroad_urban
+51000710151,39.218863,-84.578876,2016,18,developed,developed open,TRUE,nonroad_urban
+52700100025,39.142696,-84.375735,2001,6,developed,developed open,TRUE,tertiary_urban
+52700100025,39.142696,-84.375735,2006,6,developed,developed open,TRUE,tertiary_urban
+52700100025,39.142696,-84.375735,2011,6,developed,developed open,TRUE,tertiary_urban
+52700100025,39.142696,-84.375735,2016,6,developed,developed open,TRUE,tertiary_urban
+22500030012,39.157044,-84.574001,2001,54,developed,developed medium intensity,FALSE,tertiary_urban
+22500030012,39.157044,-84.574001,2006,54,developed,developed medium intensity,FALSE,tertiary_urban
+22500030012,39.157044,-84.574001,2011,54,developed,developed medium intensity,FALSE,tertiary_urban
+22500030012,39.157044,-84.574001,2016,54,developed,developed medium intensity,FALSE,tertiary_urban
+51000700019,39.211275,-84.585293,2001,30,developed,developed low intensity,TRUE,tertiary_urban
+51000700019,39.211275,-84.585293,2006,30,developed,developed low intensity,TRUE,tertiary_urban
+51000700019,39.211275,-84.585293,2011,30,developed,developed low intensity,TRUE,tertiary_urban
+51000700019,39.211275,-84.585293,2016,30,developed,developed low intensity,TRUE,tertiary_urban
+65100520093,39.155716,-84.462985,2001,45,developed,developed low intensity,TRUE,nonroad_urban
+65100520093,39.155716,-84.462985,2006,45,developed,developed low intensity,TRUE,nonroad_urban
+65100520093,39.155716,-84.462985,2011,45,developed,developed low intensity,TRUE,nonroad_urban
+65100520093,39.155716,-84.462985,2016,45,developed,developed low intensity,TRUE,nonroad_urban
+14900120025,39.103255,-84.554964,2001,54,developed,developed medium intensity,FALSE,nonroad_urban
+14900120025,39.103255,-84.554964,2006,54,developed,developed medium intensity,FALSE,nonroad_urban
+14900120025,39.103255,-84.554964,2011,54,developed,developed medium intensity,FALSE,nonroad_urban
+14900120025,39.103255,-84.554964,2016,54,developed,developed medium intensity,FALSE,nonroad_urban
+59500020243,39.222116,-84.546861,2001,38,developed,developed low intensity,TRUE,tertiary_urban
+59500020243,39.222116,-84.546861,2006,38,developed,developed low intensity,TRUE,tertiary_urban
+59500020243,39.222116,-84.546861,2011,38,developed,developed low intensity,TRUE,tertiary_urban
+59500020243,39.222116,-84.546861,2016,38,developed,developed low intensity,TRUE,tertiary_urban
+60800100075,39.274959,-84.39074,2001,43,developed,developed low intensity,TRUE,tertiary_urban
+60800100075,39.274959,-84.39074,2006,43,developed,developed low intensity,TRUE,tertiary_urban
+60800100075,39.274959,-84.39074,2011,43,developed,developed low intensity,TRUE,tertiary_urban
+60800100075,39.274959,-84.39074,2016,43,developed,developed low intensity,TRUE,tertiary_urban
+51001010270,39.24134,-84.599597,2001,40,developed,developed low intensity,TRUE,tertiary_urban
+51001010270,39.24134,-84.599597,2006,40,developed,developed low intensity,TRUE,tertiary_urban
+51001010270,39.24134,-84.599597,2011,40,developed,developed low intensity,TRUE,tertiary_urban
+51001010270,39.24134,-84.599597,2016,40,developed,developed low intensity,TRUE,tertiary_urban
+2200040012,39.132608,-84.416917,2001,0,forest,deciduous forest,TRUE,non-impervious
+2200040012,39.132608,-84.416917,2006,0,forest,deciduous forest,TRUE,non-impervious
+2200040012,39.132608,-84.416917,2011,0,forest,deciduous forest,TRUE,non-impervious
+2200040012,39.132608,-84.416917,2016,0,forest,deciduous forest,TRUE,non-impervious
+55000640056,39.167463,-84.596113,2001,44,developed,developed low intensity,TRUE,tertiary_urban
+55000640056,39.167463,-84.596113,2006,44,developed,developed low intensity,TRUE,tertiary_urban
+55000640056,39.167463,-84.596113,2011,44,developed,developed low intensity,TRUE,tertiary_urban
+55000640056,39.167463,-84.596113,2016,44,developed,developed low intensity,TRUE,tertiary_urban
+59600100129,39.267424,-84.452977,2001,19,developed,developed open,TRUE,tertiary_urban
+59600100129,39.267424,-84.452977,2006,19,developed,developed open,TRUE,tertiary_urban
+59600100129,39.267424,-84.452977,2011,19,developed,developed open,TRUE,tertiary_urban
+59600100129,39.267424,-84.452977,2016,19,developed,developed open,TRUE,tertiary_urban
+67100160157,39.222482,-84.427354,2001,47,developed,developed low intensity,TRUE,tertiary_urban
+67100160157,39.222482,-84.427354,2006,47,developed,developed low intensity,TRUE,tertiary_urban
+67100160157,39.222482,-84.427354,2011,47,developed,developed low intensity,TRUE,tertiary_urban
+67100160157,39.222482,-84.427354,2016,47,developed,developed low intensity,TRUE,tertiary_urban
+54001200027,39.111958,-84.667418,2001,22,developed,developed low intensity,TRUE,secondary_urban
+54001200027,39.111958,-84.667418,2006,22,developed,developed low intensity,TRUE,secondary_urban
+54001200027,39.111958,-84.667418,2011,22,developed,developed low intensity,TRUE,secondary_urban
+54001200027,39.111958,-84.667418,2016,22,developed,developed low intensity,TRUE,secondary_urban
+60000930179,39.216002,-84.371319,2001,10,developed,developed open,TRUE,nonroad_urban
+60000930179,39.216002,-84.371319,2006,10,developed,developed open,TRUE,nonroad_urban
+60000930179,39.216002,-84.371319,2011,10,developed,developed open,TRUE,nonroad_urban
+60000930179,39.216002,-84.371319,2016,10,developed,developed open,TRUE,nonroad_urban
+02040A150084,39.117415,-84.576036,2001,40,developed,developed low intensity,TRUE,nonroad_urban
+02040A150084,39.117415,-84.576036,2006,40,developed,developed low intensity,TRUE,nonroad_urban
+02040A150084,39.117415,-84.576036,2011,40,developed,developed low intensity,TRUE,nonroad_urban
+02040A150084,39.117415,-84.576036,2016,40,developed,developed low intensity,TRUE,nonroad_urban
+5400040073,39.137718,-84.469708,2001,30,developed,developed low intensity,TRUE,nonroad_urban
+5400040073,39.137718,-84.469708,2006,30,developed,developed low intensity,TRUE,nonroad_urban
+5400040073,39.137718,-84.469708,2011,30,developed,developed low intensity,TRUE,nonroad_urban
+5400040073,39.137718,-84.469708,2016,30,developed,developed low intensity,TRUE,nonroad_urban

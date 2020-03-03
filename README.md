@@ -33,3 +33,8 @@ mappp::mappp(nlcd_cells, get_nlcd_data, parallel = TRUE)
 ```
 
 ## finding cell numbers from an sf object
+
+See the example files for how to implement code to extract values from sf objects:
+
+- `_example_point_extraction.R`
+- `_example_polygon_extraction.R`
