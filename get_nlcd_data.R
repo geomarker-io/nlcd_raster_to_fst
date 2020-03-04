@@ -1,3 +1,4 @@
+# download nlcd chunk only if it doesn't already exist
 download_nlcd_chunk <- function(nlcd_chunk_number) {
   dir.create("./nlcd_fst/", showWarnings = FALSE)
   nlcd_file <- glue::glue("./nlcd_fst/nlcd_chunk_{nlcd_chunk_number}.fst")
@@ -15,6 +16,7 @@ download_nlcd_chunk <- function(nlcd_chunk_number) {
   )
 }
 
+# get raw nlcd values for specific cell number, year, and product
 get_nlcd_data <- function(nlcd_cell_number,
                           year = c(2001, 2006, 2011, 2016),
                           product = c("nlcd", "impervious", "imperviousdescriptor")) {
