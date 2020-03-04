@@ -34,9 +34,12 @@ mappp::mappp(nlcd_cells, get_nlcd_data, parallel = TRUE)
 
 ## finding cell numbers from an sf object
 
+An "empty raster" that can be quickly used to match geospatial features with NLCD cells as well as definitions for the different integer codes corresponding to land classes are defined in `nlcd_definitions.R`
+
 See the example files for how to implement code to extract values from sf objects:
 
 - `_example_point_extraction.R`
 - `_example_polygon_extraction.R`
 
 These examples return classified land based on the green/non-green classification system described in https://doi.org/10.1016/j.ufug.2016.10.013
+

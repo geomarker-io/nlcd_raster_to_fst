@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyr)
 
 source("./get_nlcd_data.R")
+source("./nlcd_definitions.R")
 
 raw_data <- readr::read_csv("test/my_address_file_geocoded.csv")
 raw_data$.row <- seq_len(nrow(raw_data))
