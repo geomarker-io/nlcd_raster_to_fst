@@ -30,9 +30,7 @@ d <- d %>%
 # this assumes that the query polygon is already in the CRS of the raster!
 get_nlcd_percentages <- function(query_poly = d$geometry[[1]]) {
 
-  sf_poly <- st_sfc(query_poly, crs = st_crs(d))
-
-  nlcd_cells <- raster::cellFromPolygon(r_nlcd_empty, as(sf_poly, "Spatial"))[[1]]
+  nlcd_cells <- raster::cellFromPolygon(r_nlcd_empty, as(query_poly, "Spatial"))[[1]]
 
   nlcd_data <-
     purrr::map_dfr(nlcd_cells, get_nlcd_data) %>%
@@ -40,7 +38,7 @@ get_nlcd_percentages <- function(query_poly = d$geometry[[1]]) {
 
   nlcd_data <-
     nlcd_data %>%
-    pivot_longer(cols = starts_with(c("nlcd", "impervious")), names_to = c("product", "year"), names_sep = "_") %>%
+    pivot_longer(cols = -.row, names_to = c("product", "year"), names_sep = "_") %>%
     pivot_wider(names_from = product, values_from = value) %>%
     left_join(nlcd_legend, by = c("nlcd" = "value")) %>%
     select(-nlcd) %>%
@@ -77,7 +75,7 @@ get_nlcd_percentages <- function(query_poly = d$geometry[[1]]) {
 ## get_nlcd_percentages(d$geometry[[1]])
 
 d <- d %>%
-  mutate(nlcd_data = mappp::mappp(geometry, get_nlcd_percentages))
+  mutate(nlcd_data = mappp::mappp(d$geometry, get_nlcd_percentages))
 
 # merge back on .row after unnesting .rows into .row
 d <- d %>%
