@@ -10,6 +10,7 @@ This script relies heavily on system calls and so its behavior may change depend
     - NLCD files are stored at s3://geomarker/nlcd/nlcd_tif/ and include `impervious_{2001,2006,2011,2016}.tif`, `imperviousdescriptor_{2001,2006,2011,2016}.tif`, `nlcd_{2001,2006,2011,2016}.tif`, and `treecanopy{2011,2016}.tif`
 - `02_raster_to_fst.R` converts the `.tif` files into `.fst` files
     - NLCD data is stored as a folder of 1,685 `.fst` files at `s3://geomarker/nlcd/nlcd_fst/`
+- `03_create_empty_raster.R` downloads raster file to get info to use to create "empty raster" for lookup purposes
 
 ## reading data from fst files
 
@@ -32,7 +33,7 @@ purrr::map_dfr(nlcd_cells + 100000, get_nlcd_data)
 mappp::mappp(nlcd_cells, get_nlcd_data, parallel = TRUE)
 ```
 
-## finding cell numbers from an sf object
+## getting data for an sf object
 
 An "empty raster" that can be quickly used to match geospatial features with NLCD cells as well as definitions for the different integer codes corresponding to land classes are defined in `nlcd_definitions.R`
 

@@ -28,7 +28,9 @@ d <- d %>%
 #### function to get all data for a single polygon
 
 # this assumes that the query polygon is already in the CRS of the raster!
-get_nlcd_percentages <- function(query_poly = d$geometry[[1]]) {
+get_nlcd_percentages <- function(row) {
+
+  query_poly <- d[row, ]
 
   nlcd_cells <- raster::cellFromPolygon(r_nlcd_empty, as(query_poly, "Spatial"))[[1]]
 
@@ -74,8 +76,10 @@ get_nlcd_percentages <- function(query_poly = d$geometry[[1]]) {
 
 ## get_nlcd_percentages(d$geometry[[1]])
 
+## TODO applying over geometry is not efficient b/c mappp converts it to a list, right?
+## TODO it would better to apply over a geoid/h3/.row identifier instead (as in st_pm_hex repo)
 d <- d %>%
-  mutate(nlcd_data = mappp::mappp(d$geometry, get_nlcd_percentages))
+  mutate(nlcd_data = mappp::mappp(1:nrow(d), get_nlcd_percentages))
 
 # merge back on .row after unnesting .rows into .row
 d <- d %>%
