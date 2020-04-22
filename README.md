@@ -44,3 +44,23 @@ See the example files for how to implement code to extract values from sf object
 
 These examples return classified land based on the green/non-green classification system described in https://doi.org/10.1016/j.ufug.2016.10.013
 
+## NLCD data details
+
+- Variables returned from .fst files for a single point include:
+    - `impervious`: percent impervious
+    - `landcover_class`: landcover classfication category
+    - `landcover`: landcover classification
+    - `green`: TRUE/FALSE if landcover classification in any category except water, ice/snow, developed medium intensity, developed high intensity, rock/sand/clay
+    - `road_type`: impervious descriptor category (or "non-impervious")
+
+- Note that the NLCD categories correspond exactly to fraction imperviousness
+
+    nlcd category | fraction impervious
+    --------------|--------------------
+    developed open | < 20%
+    developed low | 20 - 49%
+    developed medium | 50 - 79%
+    developed high | 80 - 100%
+    any other | 0%
+
+- See [_example_polygon_extraction.R](_example_polygon_extraction.R) for implementations as percentages for polygons and buffers around points
