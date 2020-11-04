@@ -16,14 +16,14 @@ yrs_product_names <- map(product_names, ~ paste0(., "_", yrs)) %>% unlist()
 r_all <- raster::stack(glue("./nlcd_tif/{yrs_product_names}.tif"))
 dir.create("./nlcd_fst")
 
-chunk_size <- 10000000
+chunk_size <- 1e+07
 n_chunks <- (raster::ncell(r_all) %/% chunk_size) + 1
 
 write_chunk_as_fst <- function(chnk) {
   chunk_cell_numbers <-
     seq.int(
       from = chnk * chunk_size,
-      to = chnk * chunk_size + chunk_size - 1,
+      to = chnk * chunk_size + chunk_size,
       by = 1
     )
   d_values <-
@@ -33,6 +33,7 @@ write_chunk_as_fst <- function(chnk) {
   return(invisible(NULL))
 }
 
+# extracting for raster cell 0 results in NA, so no problems with that
 mappp::mappp(0:n_chunks, write_chunk_as_fst, parallel = TRUE) %>%
   invisible()
 
