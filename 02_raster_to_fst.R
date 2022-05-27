@@ -1,6 +1,6 @@
 library(glue)
 library(magrittr)
-library(rgdal)
+## library(rgdal)
 library(purrr)
 library(tibble)
 
