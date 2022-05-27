@@ -29,7 +29,6 @@ d <- d %>%
 
 # this assumes that the query polygon is already in the CRS of the raster!
 get_nlcd_percentages <- function(row) {
-
   query_poly <- d[row, ]
 
   nlcd_cells <- raster::cellFromPolygon(r_nlcd_empty, as(query_poly, "Spatial"))[[1]]

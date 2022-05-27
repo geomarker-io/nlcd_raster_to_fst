@@ -36,5 +36,3 @@ write_chunk_as_fst <- function(chnk) {
 # extracting for raster cell 0 results in NA, so no problems with that
 mappp::mappp(0:n_chunks, write_chunk_as_fst, parallel = TRUE) %>%
   invisible()
-
-
